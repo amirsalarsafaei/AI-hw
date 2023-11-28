@@ -15,6 +15,7 @@ cachetools==5.3.1
 certifi==2023.7.22
 cffi==1.16.0
 charset-normalizer==3.3.0
+cloudpickle==3.0.0
 comm==0.1.4
 contourpy==1.1.1
 cycler==0.12.1
@@ -23,6 +24,7 @@ decorator==5.1.1
 defusedxml==0.7.1
 exceptiongroup==1.1.3
 executing==2.0.0
+Farama-Notifications==0.0.4
 fastjsonschema==2.18.1
 flatbuffers==23.5.26
 fonttools==4.43.1
@@ -33,8 +35,13 @@ google-auth==2.23.3
 google-auth-oauthlib==1.0.0
 google-pasta==0.2.0
 grpcio==1.59.0
+gym==0.26.2
+gym-notices==0.0.8
+gymnasium==0.29.1
 h5py==3.10.0
 idna==3.4
+imageio==2.33.0
+imageio-ffmpeg==0.4.9
 ipykernel==6.25.2
 ipython==8.16.1
 ipython-genutils==0.2.0
@@ -71,10 +78,12 @@ nbclient==0.8.0
 nbconvert==7.9.2
 nbformat==5.9.2
 nest-asyncio==1.5.8
+networkx==3.2.1
 notebook==7.0.6
 notebook_shim==0.2.3
 numpy==1.26.1
 oauthlib==3.2.2
+opencv-python==4.8.1.78
 opt-einsum==3.3.0
 overrides==7.4.0
 packaging==23.2
@@ -85,6 +94,7 @@ pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==10.1.0
 platformdirs==3.11.0
+prettytable==3.9.0
 prometheus-client==0.17.1
 prompt-toolkit==3.0.39
 protobuf==4.24.4
@@ -111,6 +121,8 @@ rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rpds-py==0.10.6
 rsa==4.9
+scipy==1.11.3
+seaborn==0.13.0
 Send2Trash==1.8.2
 six==1.16.0
 sniffio==1.3.0
